@@ -1,0 +1,166 @@
+body{
+	background:#545653;
+	color:#FFF;
+}
+#section_1{
+	background:url(../images/bg.jpg);
+	background-repeat:no-repeat
+}
+#main_logo{
+	margin-top:70px;
+}
+#siempre_lista{
+	margin-right:20px;
+}
+#form_wrapper{
+}
+#form_circle{
+	position:absolute;
+	top:0;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+}
+#p_1, #p_2, #p_3, #p_4, #p_5{
+	position:absolute;
+	left: 0;
+	width:100%;
+}
+#p_1{
+	top:58px;	
+}
+#p_2{
+	  font-size: 25px;
+  top: 90px;
+}
+#p_3{
+	  top: 118px;
+  font-size: 15px;
+}
+#p_4{
+	top: 250px;
+	font-size: 51px;
+}
+#p_5{
+	top:300px;
+}
+#form{
+	position:absolute;
+	top:200px;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+}
+
+#form .form-textbox {
+    width : 100%;
+    font-size : 12px;
+    height : 40px !important;
+    line-height : 40px;
+    font-size : 20px;
+    text-align : center;
+    border-radius : 3px;
+}
+#after_form{
+	margin-top:640px
+}
+#seal{
+	  margin-left: 20px;
+  margin-top: -70px;
+  margin-bottom: 70px;
+}
+#description{
+	float:right;
+	text-align:right;
+	  margin-top: -100px;
+  width: 100%;
+}
+#description p{
+	font-size:15px;
+	line-height:150%
+}
+#compra_hoy{
+	  width: 100%;
+  float: left;
+  text-align: center;
+  margin:30px 0 10px 0
+}
+#medios_title{
+	margin-top:100px;
+}
+#video{
+	position:relative;
+	width:410px;
+	height:245px;
+	background:#d57b27;
+	margin-top:15px;
+}
+#video iframe{
+	margin-top:-5px;
+	margin-left:-5px;
+}
+#video_over{
+	width: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#glamur{
+	margin-top:-20px;
+}
+#form ul{
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+	list-style:none
+}
+#form ul li{
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+label{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+#form #id_4, #form #id_8{
+	width:48%;
+}
+#form #id_8{
+margin-left:4%;
+}
+input{
+	float:left;
+	width:100%;
+}
+button{
+	background:none;
+	border:none
+}
+#gratis{
+	  position: absolute;
+  right: 0;
+  top: 749px;
+}
+
+.gracias_text{
+	position: absolute;
+  top: 180px;
+  text-align: center;
+  width: 90%;
+  margin: 0 5%;
+  font-size: 20px;
+  line-height: 39px;
+
+}
+.gracias_text span{
+	font-size:24px
+}
+.gracias_text a{
+	color:#FFF;
+	cursor:pointer
+}

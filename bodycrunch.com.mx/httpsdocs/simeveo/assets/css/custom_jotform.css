@@ -1,0 +1,679 @@
+.form-label-left{
+        width:150px !important;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px !important;
+    }
+    .form-all{
+        width:449px;
+        color:#555 !important;
+        font-family:'Lucida Grande';
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: #555;
+    }
+
+    /* Injected CSS Code */
+/* line 82, http://www.jotform.com/themes/css/style.less */
+.form-all {
+  font-family: "Lucida Grande", sans-serif;
+}
+/* line 115, http://www.jotform.com/themes/css/style.less */
+.form-all {
+  width: 449px;
+  width: 100%;
+  max-width: 449px;
+}
+/* line 131, http://www.jotform.com/themes/css/style.less */
+.form-label-left,
+.form-label-right {
+  width: 150px;
+}
+/* line 142, http://www.jotform.com/themes/css/style.less */
+.form-label {
+  white-space: normal;
+}
+/* line 144, http://www.jotform.com/themes/css/style.less */
+.form-label.form-label-auto {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  width: 150px;
+}
+/* line 168, http://www.jotform.com/themes/css/style.less */
+.form-label-left {
+  display: inline-block;
+  white-space: normal;
+  float: left;
+  text-align: left;
+}
+/* line 175, http://www.jotform.com/themes/css/style.less */
+.form-label-right {
+  display: inline-block;
+  white-space: normal;
+  float: left;
+  text-align: right;
+}
+/* line 182, http://www.jotform.com/themes/css/style.less */
+.form-label-top {
+  white-space: normal;
+  display: block;
+  float: none;
+  text-align: left;
+}
+/* line 195, http://www.jotform.com/themes/css/style.less */
+.form-all {
+  font-size: 14px;
+}
+/* line 207, http://www.jotform.com/themes/css/style.less */
+.form-label {
+  font-weight: bold;
+}
+/* line 211, http://www.jotform.com/themes/css/style.less */
+.form-checkbox-item label,
+.form-radio-item label {
+  font-weight: normal;
+}
+/* line 278, http://www.jotform.com/themes/css/style.less */
+.supernova {
+  background-color: none;
+}
+/* line 280, http://www.jotform.com/themes/css/style.less */
+.supernova body {
+  background-color: transparent;
+}
+/*
+@width30: (unit(@formWidth, px) + 60px);
+@width60: (unit(@formWidth, px)+ 120px);
+@width90: (unit(@formWidth, px)+ 180px);
+*/
+/* | */
+@media screen and (min-width: 480px) {
+  /* line 296, http://www.jotform.com/themes/css/style.less */
+  .supernova {
+    background-color: #ffffff;
+  }
+}
+
+/* line 343, http://www.jotform.com/themes/css/style.less */
+.form-all {
+  background-color: none;
+  border: 1px solid transparent;
+}
+/* line 369, http://www.jotform.com/themes/css/style.less */
+.form-all {
+  color: #000000;
+}
+/* line 374, http://www.jotform.com/themes/css/style.less */
+.form-header-group .form-header {
+  color: #000000;
+}
+/* line 377, http://www.jotform.com/themes/css/style.less */
+.form-header-group .form-subHeader {
+  color: #1a1a1a;
+}
+/* line 382, http://www.jotform.com/themes/css/style.less */
+.form-sub-label {
+  color: #1a1a1a;
+}
+/* line 388, http://www.jotform.com/themes/css/style.less */
+.form-label-top,
+.form-label-left,
+.form-label-right {
+  color: #555555;
+}
+/* line 394, http://www.jotform.com/themes/css/style.less */
+.form-textbox,
+.form-textarea,
+.form-radio-other-input,
+.form-checkbox-other-input,
+.form-captcha input,
+.form-spinner input,
+.form-checkbox-item label,
+.form-radio-item label {
+  color: #6f6f6f;
+}
+/* line 437, http://www.jotform.com/themes/css/style.less */
+.form-line.form-line-active {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  background-color: inherit;
+}
+/* ömer */
+/* line 445, http://www.jotform.com/themes/css/style.less */
+.form-radio-item,
+.form-checkbox-item {
+  padding-bottom: 0px !important;
+}
+/* line 447, http://www.jotform.com/themes/css/style.less */
+.form-radio-item:last-child,
+.form-checkbox-item:last-child {
+  padding-bottom: 0;
+}
+
+/* line 684, http://www.jotform.com/themes/css/style.less */
+.form-single-column .form-checkbox-item,
+.form-single-column .form-radio-item {
+  width: 100%;
+}
+/* line 1165, http://www.jotform.com/themes/css/style.less */
+.supernova {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+}
+/* | */
+@media screen and (min-width: 480px) {
+  /* line 1188, http://www.jotform.com/themes/css/style.less */
+  .supernova {
+    background-image: url("//static-interlogyllc.netdna-ssl.com/themes/img/blank.gif");
+  }
+}
+/* line 1195, http://www.jotform.com/themes/css/style.less */
+#stage {
+  background-image: url("//static-interlogyllc.netdna-ssl.com/themes/img/blank.gif");
+}
+/* | */
+/* line 1209, http://www.jotform.com/themes/css/style.less */
+.form-all {
+  background-image: url("//static-interlogyllc.netdna-ssl.com/themes/img/blank.gif");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+}
+/* line 1238, http://www.jotform.com/themes/css/style.less */
+.form-header-group {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+}
+/* line 1265, http://www.jotform.com/themes/css/style.less */
+.form-line {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+/* line 1283, http://www.jotform.com/themes/css/style.less */
+.form-line {
+  padding: 10px 0px;
+}
+/* line 1297, http://www.jotform.com/themes/css/style.less */
+.form-all .form-textbox,
+.form-all .form-radio-other-input,
+.form-all .form-checkbox-other-input,
+.form-all .form-captcha input,
+.form-all .form-spinner input,
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next,
+.form-all .qq-upload-button,
+.form-all .form-error-message {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 1309, http://www.jotform.com/themes/css/style.less */
+.form-all .form-sub-label {
+  margin-left: 3px;
+}
+/* line 1314, http://www.jotform.com/themes/css/style.less */
+.form-all .form-textarea {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 1376, http://www.jotform.com/themes/css/style.less */
+.form-all {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 1380, http://www.jotform.com/themes/css/style.less */
+.form-section:first-child {
+  -webkit-border-radius: 0px 0px 0 0;
+  -moz-border-radius: 0px 0px 0 0;
+  border-radius: 0px 0px 0 0;
+}
+/* line 1383, http://www.jotform.com/themes/css/style.less */
+.form-section:last-child {
+  -webkit-border-radius: 0 0 0px 0px;
+  -moz-border-radius: 0 0 0px 0px;
+  border-radius: 0 0 0px 0px;
+}
+/* line 1411, http://www.jotform.com/themes/css/style.less */
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+  font-size: 1.15em;
+  padding: 12px 18px;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+/* line 1469, http://www.jotform.com/themes/css/style.less */
+.form-all .form-submit-print {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+/* line 1499, http://www.jotform.com/themes/css/style.less */
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+  color: #000000 !important;
+  background: #1b1b1b;
+  box-shadow: none;
+  text-shadow: none;
+}
+/* line 1511, http://www.jotform.com/themes/css/style.less */
+.form-all .qq-upload-button:hover,
+.form-all .form-submit-button:hover,
+.form-all .form-submit-reset:hover,
+.form-all .form-submit-print:hover {
+  background: #353535;
+}
+/* line 1516, http://www.jotform.com/themes/css/style.less */
+.form-all .qq-upload-button:active,
+.form-all .form-submit-button:active,
+.form-all .form-submit-reset:active,
+.form-all .form-submit-print:active {
+  background: #010101;
+}
+/* line 1550, http://www.jotform.com/themes/css/style.less */
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next {
+  font-size: 1em;
+  padding: 9px 15px;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+/*
+	TODO: Significant improvement possibility:
+
+	following import statement is not required in design mode,
+	but it should be inside the exported css of current design, in the form itself
+	when it is shown to people. Being of this here, causing re-drawn problems.
+	we should find a way to only include this in css send while saving current design
+
+	see prepareModel4Save for implementation for @buttonFontType
+*/
+/*
+&amp; when ( @buttonFontType = google ) {
+	@import (css) "@{buttonFontLink}";
+}
+*/
+/* line 1687, http://www.jotform.com/themes/css/style.less */
+h2.form-header {
+  line-height: 1.618em;
+  font-size: 1.714em;
+}
+/* line 1694, http://www.jotform.com/themes/css/style.less */
+h2 ~ .form-subHeader {
+  line-height: 1.5em;
+  font-size: 1.071em;
+}
+/* line 1708, http://www.jotform.com/themes/css/style.less */
+.form-header-group {
+  text-align: left;
+}
+/* line 1719, http://www.jotform.com/themes/css/style.less */
+.form-header-group {
+  background-image: url("//static-interlogyllc.netdna-ssl.com/themes/img/blank.gif");
+}
+/*.form-dropdown,
+.form-radio-item,
+.form-checkbox-item,
+.form-radio-other-input,
+.form-checkbox-other-input,*/
+/* line 2003, http://www.jotform.com/themes/css/style.less */
+.form-captcha input,
+.form-spinner input,
+.form-error-message {
+  padding: 4px 3px 2px 3px;
+}
+/* line 2018, http://www.jotform.com/themes/css/style.less */
+.form-header-group {
+  font-family: "Lucida Grande", sans-serif;
+}
+/* line 2039, http://www.jotform.com/themes/css/style.less */
+.form-section {
+  padding: 0px 0px 0px 0px;
+}
+/* line 2050, http://www.jotform.com/themes/css/style.less */
+.form-header-group {
+  margin: 12px 36px 12px 36px;
+}
+/* line 2061, http://www.jotform.com/themes/css/style.less */
+.form-header-group {
+  padding: 24px 0px 24px 0px;
+}
+/* line 2104, http://www.jotform.com/themes/css/style.less */
+.form-textbox,
+.form-textarea {
+  padding: 4px 3px 2px 3px;
+}
+/*@textInputStyle: "ti-default";
+@textInputBorderWidth: -1;
+@textInputBorderStyle: -1;
+@clrTextInputBorder: -1;
+@clrTextInputBg: -1;
+@clrTextInputFont: -1;
+@textInputHeight: -1;
+@textAreaHeight: -1;
+
+&amp; when ( @formControlStyle = ti-default ) {
+
+}*/
+/* line 2318, http://www.jotform.com/themes/css/style.less */
+[data-type="control_dropdown"] .form-input,
+[data-type="control_dropdown"] .form-input-wide {
+  width: 150px;
+}
+/* line 2585, http://www.jotform.com/themes/css/style.less */
+.form-buttons-wrapper {
+  margin-left: 0 !important;
+  text-align: center !important;
+}
+/* line 2685, http://www.jotform.com/themes/css/style.less */
+.form-label {
+  font-family: "Lucida Grande", sans-serif;
+}
+/* line 2705, http://www.jotform.com/themes/css/style.less */
+li[data-type="control_image"] div {
+  text-align: left;
+}
+/* line 2709, http://www.jotform.com/themes/css/style.less */
+li[data-type="control_image"] img {
+  border: none;
+  border-width: 0px !important;
+  border-style: solid !important;
+  border-color: false !important;
+}
+/* line 2751, http://www.jotform.com/themes/css/style.less */
+.form-line-column {
+  width: auto;
+  width: 50%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-1 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-3 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-2 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-5 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-4 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-7 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-9 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-8 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-11 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-10 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-13 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-15 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-14 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-17 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-16 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-19 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-18 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2767, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-21 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2772, http://www.jotform.com/themes/css/style.less */
+.form-line-column.form-col-20 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 2796, http://www.jotform.com/themes/css/style.less */
+.form-line-error {
+  overflow: hidden;
+  -webkit-transition-property: none;
+  -moz-transition-property: none;
+  -ms-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  background-color: inherit;
+}
+/* line 2801, http://www.jotform.com/themes/css/style.less */
+.form-line-error .form-error-message {
+  background-color: #ff3200;
+  width: 150px;
+  clear: both;
+  float: none;
+}
+/* line 2806, http://www.jotform.com/themes/css/style.less */
+.form-line-error .form-error-message .form-error-arrow {
+  border-bottom-color: #ff3200;
+}
+/* line 2811, http://www.jotform.com/themes/css/style.less */
+.form-line-error input:not(#coupon-input),
+.form-line-error textarea,
+.form-line-error .form-validation-error {
+  border: 1px solid #ff3200;
+  -webkit-box-shadow: 0 0 3px #ff3200;
+  -moz-box-shadow: 0 0 3px #ff3200;
+  box-shadow: 0 0 3px #ff3200;
+}
+/* | */
+@media screen and (max-width: 768px) {
+  /* line 3077, http://www.jotform.com/themes/css/style.less */
+  .form-all {
+    border: 0;
+    width: 100%;
+  }
+  /* line 3078, http://www.jotform.com/themes/css/style.less */
+  .form-sub-label-container {
+    width: 100%;
+    margin: 0;
+  }
+  /* line 3079, http://www.jotform.com/themes/css/style.less */
+  .form-input {
+    width: 100%;
+  }
+  /* line 3080, http://www.jotform.com/themes/css/style.less */
+  .form-label {
+    width: 100%!important;
+  }
+  /* line 3081, http://www.jotform.com/themes/css/style.less */
+  .form-line {
+    padding: 2% 5%;
+    margin: 0;
+  }
+  /* line 3082, http://www.jotform.com/themes/css/style.less */
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  textarea {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 3083, http://www.jotform.com/themes/css/style.less */
+  .form-header-group {
+    padding: 3% 0!important;
+    margin: 5%!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 3084, http://www.jotform.com/themes/css/style.less */
+  .form-buttons-wrapper {
+    margin: 0!important;
+  }
+  /* line 3085, http://www.jotform.com/themes/css/style.less */
+  .form-buttons-wrapper button {
+    width: 100%;
+  }
+  /* line 3087, http://www.jotform.com/themes/css/style.less */
+  table {
+    width: 100%!important;
+  }
+  /* line 3088, http://www.jotform.com/themes/css/style.less */
+  table td + td {
+    padding-left: 3%;
+  }
+  /* line 3091, http://www.jotform.com/themes/css/style.less */
+  .form-checkbox-item input,
+  .form-radio-item input {
+    width: auto;
+  }
+}
+/* | */
+
+/*__INSPECT_SEPERATOR__*/
+.form-label.form-label-top {
+    margin-bottom : 0;
+    color : #FFF;
+}
+
+.form-textbox {
+    width : 100%;
+    height : 35px;
+    line-height : 35px;
+    font-size : 16px;
+}
+
+#id_6 {
+    width : 48%;
+    margin : 0 1%;
+}
+
+
+#id_7 {
+    width : 48%;
+    margin : 0 1%;
+}
+
+#id_5 {
+    float : left;
+    width : 48%;
+    margin : 0 1%;
+}
+
+#id_15 {
+    float : left;
+    width : 48%;
+    margin : 0 1%;
+}
+
+#id_19 {
+    width : 48%;
+}
+
+.form-dropdown {
+    width : 100%;
+}

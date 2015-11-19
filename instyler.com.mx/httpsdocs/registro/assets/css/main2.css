@@ -1,0 +1,193 @@
+body{
+	background:#545653;
+	background-image:url(../images/bg.jpg);
+	background-position:top center;
+	color:#FFF;
+}
+
+/*** SECTION 1 ***/
+#section_1{
+	height:2235px;
+	
+}
+.inner_px{
+	width:1336px;
+	margin:0 auto;
+}
+#form_wrapper{
+	width:640px;
+	position:absolute;
+	top:205px;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+#form_circle{
+	width:640px;
+}
+#form{
+  position: absolute;
+  top: 175px;
+  left: 63px;
+  width: 520px
+}
+#p_1, #p_2, #p_3, #p_4{
+	position:absolute;
+	display: inline-block;
+	width:100%;
+	left:0;
+	z-index:99;
+	text-align:center
+}
+#p_1{
+	top: 60px;
+	font-size: 20px;
+	line-height: 13px;
+}
+#p_2{
+  top: 92px;
+  font-size: 32px;
+  line-height: 22px;
+}
+#p_3{
+  top: 123px;
+  font-size: 13px;
+  line-height: 11px;
+}
+#p_4{
+top: 153px;
+  font-size: 66px;
+  line-height: 35px;
+}
+#gratis{
+	position: absolute;
+	top: 350px;
+	right: 10px;
+}
+/*** SECTION ***/
+#icons_1{
+	position: absolute;
+	top: 933px;
+	left: 280px;
+	width: 940px;
+}
+#buybtn{
+	position: absolute;
+  width: 320px;
+  top: 1140px;
+  left:74%
+}
+#description{ 
+	position: absolute;
+  top: 1090px;
+  left: 20%;
+  width: 50%;
+}
+#description li{
+	margin-bottom:5px
+}
+#seal{
+	position:absolute;
+	width:130px;
+	top: 1125px;
+	left: 390px;
+}
+
+#facebook_icon,#youtube_icon{
+	position:absolute;
+	width:60px;
+	top:1720px
+}
+#facebook_icon{
+	left:94%;
+}
+#youtube_icon{
+	left:100%;
+}
+
+#logo_inova{
+	position:absolute;
+	bottom:50px;
+	left:120px;
+}
+#p_6{
+	  top: 220px;
+  left: 164px;
+  font-size: 66px;
+  line-height: 35px;
+  position:absolute;
+}
+
+#p_7{
+	  top: 297px;
+  left: 153px;
+  font-size: 28px;
+  line-height: 35px;
+  position: absolute;
+  text-align:center
+}
+
+#video{
+	position:absolute;
+	width:640px;
+	height:385px;
+	top:1310px;
+	left:60%;
+	background:#ef7c16;
+}
+#video iframe{
+	margin-top:-5px;
+	margin-left:-5px;
+}
+#video_over{
+	position: absolute;
+	width: 100px;
+	bottom: 0;
+	right: 0;
+}
+
+#form ul{
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+	list-style:none
+}
+#form ul li{
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+label{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+#form #id_4,#form #id_8{
+	width:48%;
+}
+#id_8{
+margin-left:4%;
+}
+input{
+	float:left;
+	width: calc(100% - 6px);
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif
+}
+button{
+	background:none;
+	border:none
+}
+#GotoTop{
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	cursor:pointer;
+	display:none
+}

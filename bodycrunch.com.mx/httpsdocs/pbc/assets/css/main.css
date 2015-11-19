@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+body{
+	background:#000;
+	background-image:url(../images/background.jpg);
+	color:#FFF;
+	font-family: 'Oswald', sans-serif;
+}
+#main_banner_content{
+	margin-top:20px
+}
+.green_color{
+	color:#d66b2d
+}
+/*** FORM ***/
+#form_header{
+	position:relative;
+	z-index:99;
+}
+#form_wrapper{
+	max-width:277px;
+	padding:40px 15px;
+	background:#fe792a;
+	margin-top: -31px;
+	margin-right: 14px;
+	border-radius:5px;
+	z-index:99;
+	position:relative;
+}
+.form_field{
+	float:left;
+	width:100%;
+	margin-bottom:15px;
+}
+.form_field label{
+	float:left;
+	width:100%;
+	font-size:16px;
+	text-align:left;
+	color:#FFF;
+	margin-bottom:5px;
+}
+.form_field input{
+	float:left;
+	width:calc(100% - 10px);
+	padding:10px 5px;
+	font-size:15px;
+	border-radius:15px;
+	background:#FFF;
+	color:#333;
+	border:none;
+}
+
+.form-section{
+	list-style:none;
+}
+.form-submit-button img{
+	margin-bottom: -56px;
+	position: relative;
+	margin-top: 30px;
+}
+.form-line{
+	float:left;
+	width:100%;
+	position:relative
+}
+#input_2{
+	margin-bottom: -22px;
+}
+#form_arrow{
+	position: absolute;
+	left: -128px;
+	bottom: -15px;
+}
+
+/*** BENEFICIOS ***/
+#beneficios{
+	background-image:url(../images/beneficios_bg.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+#beneficios h1{
+	line-height:35px
+}
+#text_section{
+	float:left;
+	width:calc(100% - 100px);
+	padding:80px 50px 50px;
+}
+#text_section p{
+	text-align:justify;
+	font-size:18px;
+	line-height:20px;
+}
+#bene_button{
+	margin-top:30px;
+}
+#model_1{
+	margin-top:60px;
+}
+
+/*** VIDEO ***/
+#media h3{
+	color:#e05b0c
+}
+#media{
+	margin-top:40px;
+}
+#video_wrapper{
+	float:left;
+	width:490px;
+	height:280px;
+	position:relative;
+	padding:5px;
+	background:#e05b0c;
+	border-radius:3px;
+}
+#video_hover{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#video_button{
+	margin-top:100px;
+}
+
+#testimonial{
+	background-image:url(../images/testimonial_bg.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+#carousel_button{
+	margin-top:-40px;
+	margin-left:150px;
+}
+.gototop{
+	position:fixed;
+	top:50%;
+	right:30px;
+	display:none
+}
+#tnk{
+	background-image:url(../images/tnk_bg.jpg);
+	background-position:top center;
+	background-size:cover
+}
+.small_text{
+	font-size:12px
+}
+.form-error-message{
+	float:left;
+	width:100%;
+	text-align:left;
+	padding:5px 0;
+	font-size:10px;
+}

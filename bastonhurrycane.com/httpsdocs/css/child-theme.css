@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+.main_menu{
+	display:block !important;
+	background:#2699BC;
+	padding:10px 0;
+	float:left;width:100%;z-index:99999;text-align:center
+}
+.main_menu ul{
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	text-align:center
+}
+.main_menu ul li{
+	display:inline-block;
+}
+.main_menu ul li a{
+	color:#FFF;
+	text-decoration:none;
+	padding:0 30px;
+}
+.footer{
+	float:left;
+	width:100%;
+	padding:20px 0;
+	background:#161616
+}
+.footer p{
+	float:left;
+	width:100%;
+	color:#FFF;
+	text-align:center
+}
+
+@media only screen and (max-width:650px){
+#diagram, .hide_mobile{
+	display:none
+}
+#nav{
+	display:block !important
+}
+.s_mobile{
+	margin:15px 0;
+	font-size:18px;
+}
+.container{
+	padding-left:0;
+}
+ul.social{
+	display:none
+}
+#cartContainer .cart_img, #cartContainer .chk_img,#cartContainer .cart_subtotal,#cartContainer  .chk_subtotal{
+	display:none
+}
+.updatePrice{
+	font-size-adjust:10px;
+	padding:5px;
+}
+}

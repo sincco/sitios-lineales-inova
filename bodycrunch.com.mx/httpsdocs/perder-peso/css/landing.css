@@ -1,0 +1,335 @@
+body{
+	color:#f7f7f7;
+	background: url(../images/wall_bg.jpg) no-repeat top center #000;
+	font-family:Arial, Helvetica, sans-serif
+}
+header.ingrid-12{
+	margin:30px 0;
+}
+.px1000{
+	width:98%;
+	padding:0 1%;
+	max-width:860px;
+	margin:0 auto;
+}
+.hightlight{
+	color:#F60
+}
+.hightlight_2{
+	color:#ffc600
+}
+hr{
+	float:left;
+	width:100%;
+	border:1px solid #ffc600;
+	margin:25px 0;
+}
+.big_green_button{
+	display:inline-block;
+	cursor:pointer;
+	padding:30px 15px;
+	border:none;
+	color:#FFF;
+	font-size:25px;
+	border-radius:10px;
+	background: #b6eb0c;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I2ZWIwYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MzdlMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #b6eb0c 0%, #537e00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b6eb0c), color-stop(100%,#537e00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b6eb0c 0%,#537e00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b6eb0c 0%,#537e00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b6eb0c 0%,#537e00 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b6eb0c 0%,#537e00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6eb0c', endColorstr='#537e00',GradientType=0 ); /* IE6-8 */
+}
+/*** MAIN SECTION - BLACK BG ***/
+#main_section{
+	background: rgba(0,0,0,0.6);
+	border-radius:10px;
+	border:1px solid #222;
+	position:relative;
+}
+
+/*** BANNER 1 SECTION ***/
+#banner_1_section img{
+	margin-top:30px;
+	max-width:100%;
+}
+#form_section{
+	position:relative
+}
+.form_bg{
+	float:right;
+	position:relative;
+	width:330px;
+	height:480px;
+	margin-top:30px;
+	margin-right:40px;
+	background:url(../images/l_form_bg.png) no-repeat;
+	background-size:cover;
+}
+#main_form{
+	float:left;
+	width:80%;
+	padding:0 10%;
+	margin-top:110px;
+}
+#main_form label{
+	font-size:14px;
+	cursor:pointer;
+}
+#main_form input[type="text"], #main_form input[type="email"], #main_form input[type="number"]{
+	float:left;
+	width:100%;
+	border:none;
+	padding:3px 5px;
+	font-size:14px;
+	margin-bottom:5px;
+}
+.l_form_button{
+	float:left;
+	width:90%;
+	margin:0 5%;
+	margin-top:20px;
+}
+#form_arrow{
+	position:absolute;
+	left:-60%;
+	bottom:0;
+}
+#secure_bar{
+	margin:10px 0;
+}
+#left_section{
+	position:relative
+}
+#left_section #recomendado_por{
+	margin-top:-50px;
+}
+/*** BENEFICIOS ***/
+.beneficios_list{
+	float:left;
+	width:95%;
+	padding:0;
+	list-style:none;
+	margin:0;
+	margin-left:5%
+}
+.beneficios_list li{
+	float:left;
+	width:100%;
+	margin:0;
+}
+.list_silueta{
+	float:left;
+	width:30%;
+	text-align:center;
+}
+.list_silueta img{
+	max-width:100%;
+}
+.list_description{
+	float:left;
+	width:70%;
+}
+#beneficios_par p{
+	text-align:justify
+}
+.log_list{
+	float:left;
+	width:95%;
+	padding:0;
+	margin:0;
+	margin-left:5%;
+	list-style:none;
+}
+.log_list li{
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+	font-size:18px;
+}
+.bc_icon_silueta{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(../images/icon_silueta.png) no-repeat;
+	margin-right:10px;
+}
+#beneficios_log p{
+	text-align:justify;
+	line-height:130%;
+}
+.button_center{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin:20px 0;
+}
+.button_center img{
+	max-width:90%;
+}
+/*** TESTIMONIAL ***/
+#testimonial_carousel{
+	float:left;
+	width: calc(84% - 2px);
+	-webkit-width: calc(84% - 2px);
+	-moz-width: calc(84% - 2px);
+	padding:10px 8%;
+	background:#222;
+	border:1px solid #ffc600;
+	border-radius:10px;
+	position:relative
+}
+#testimonial_carousel .owl-prev{
+	position:absolute;
+	float:left;
+	top:50%;
+	left:7px;
+	margin-top:-12px;
+}
+#testimonial_carousel .owl-next{
+	position:absolute;
+	top:50%;
+	right:7px;
+	margin-top:-12px;
+}
+.t_car_item{
+	border:1px solid #ffc600;
+	
+}
+.t_car_item a img{
+}
+.before_after{
+	text-align:center;
+	margin-bottom:30px;
+}
+.before_after h3{
+	margin:0;
+	margin-bottom:10px
+}
+.ba_pics img{
+	border-radius:3px;
+	max-width:98%;
+	border:2px solid #ffc600;
+}
+.testimonial_desc{
+	float:left;
+	width:100%;
+	text-align:left;
+	margin-top:20px;
+}
+.testimonial_desc h3{
+	margin:0;
+	padding:0;
+	float:left;
+	font-size:18px;
+}
+.testimonial_desc p{
+	float:left;
+	width:90%;
+	padding:20px 5%;
+	background:#ffc600;
+	color:#222;
+}
+
+/*** SIDEBAR ***/
+#sidebar_banner_1{
+	float:left;
+	width:84%;
+	padding:0 8%;
+	text-align:center;
+	position:relative;
+	margin:10px 0;
+}
+.sidebar_banner_1{
+	max-width:100%;
+}
+.sales_seal{
+	position:absolute;
+	top:30%;
+	left:-30px;
+}
+#sidebar_video{
+	float:left;
+	width:85%;
+	margin:30px 7.5%;
+}
+.sidebar_video_title{
+	float:left;
+	width:90%;
+	padding:25px 5%;
+	background:#c4c4c4;
+	color:#000;
+	text-align:center;
+}
+.sidebar_video_title h2{
+	font-size:25px;
+	line-height:25px;
+	margin:0;
+}
+.sidebar_video_wrapper{
+	float:left;
+	width:100%;
+	position:relative
+}
+.black_over{
+	float:left;
+	width:100%;
+	position:absolute;
+	top:170px;
+	bottom:0;
+	background:#000;
+	z-index:9999
+}
+#sidebar_banner_2{
+	float:left;
+	width:85%;
+	margin:20px 7.5%;
+}
+#sidebar_banner_3{
+	float:left;
+	margin-top:30px;
+}
+/*** TV VIDEOS ***/
+.tv_videos_list{
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style:none
+}
+.tv_videos_list li{
+	float:left;
+	width:24%;
+	width:calc(24% - 2px);
+	-webkit-width:calc(24% - 2px);
+	-moz-width:calc(24% - 2px);
+	display:inline-block;
+	margin:10px 0.5%;
+	border:1px solid #ffc600;
+}
+
+.tv_videos_list li img{
+	
+	width:100%;
+}
+
+/*** FOOTER ***/
+#footer_banner_wrap{
+	position:relative
+}
+.footer_banner_2{
+	margin-left:-15px
+}
+.footer_banner{
+	float:left;
+	max-width:100%;
+	margin-top:-40px;
+}
+.footer_rights p{
+	text-align:center;
+	padding:20px 0;
+	font-size:12px;
+}

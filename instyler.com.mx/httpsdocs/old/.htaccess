@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule (wet2dry)$ wet2dry.html
+RewriteRule (titanium)$ titanium.html
+RewriteRule (ceramic)$ ceramic.html
+ 

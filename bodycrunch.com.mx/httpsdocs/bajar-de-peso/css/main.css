@@ -1,0 +1,113 @@
+html,body{
+	margin:0;
+	padding:0;
+	float:left;
+	width:100%;
+	font-size:16px;
+	line-height:100%;
+}
+img{
+	border:none;
+	outline:none
+}
+a, a:hover{
+	text-decoration:none
+}
+h1{font-size:30px}
+h2{font-size:26px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
+p{
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+	font-size:14px;
+	line-height:120%;
+}
+input, input:focus{
+	outline:none;
+}
+
+
+/*** BASIC ESTRUCTURE ***/
+.px1000{
+	width:98%;
+	padding:0 1%;
+	max-width:1000px;
+	margin:0 auto;
+}
+/*** HELPERS ***/
+.hidden{
+	display:none
+}
+.float-right{
+	float:right !important;
+}
+.align-right{
+	text-align:right
+}
+
+.float-left{
+	float:left !important;
+}
+.align-left{
+	text-align:left
+}
+/*** GRID ***/
+[class^="ingrid-"], [class*="ingrid-"]{
+	float:left;
+	margin:0;
+	padding:0;
+}
+.ingrid-12{
+	width:100%;
+}
+.ingrid-11{
+	width:91.63%;
+}
+.ingrid-10{
+	width:83.3%;
+}
+.ingrid-9{
+	width:75%;
+}
+.ingrid-8{
+	width:66.64%;
+}
+.ingrid-7{
+	width:58.31%;
+}
+.ingrid-6{
+	width:50%;
+}
+.ingrid-5{
+	width:41.65%;
+}
+.ingrid-4{
+	width:33.33%;
+}
+.ingrid-3{
+	width:25%;
+}
+.ingrid-2-5{
+	width:20%;
+}
+.ingrid-2{
+	width:16.66%;
+}
+.ingrid-1{
+	width:8.33%;
+}
+.w_padding{
+	float:left;
+	width:90%;
+	padding:0 5%;
+}
+/*** MISC ***/
+.centered_title{
+	float:left;
+	width:100%;
+	text-align:center;
+}

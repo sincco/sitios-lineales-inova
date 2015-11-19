@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www.instyler.com.mx [NC]
+RewriteRule ^(.*)$ http://instyler.com.mx/$1 [R=301,L]
+
+RewriteRule (wet2dry)$ wet2dry.html
+RewriteRule (titanium)$ titanium.html
+RewriteRule (ceramic)$ ceramic.html

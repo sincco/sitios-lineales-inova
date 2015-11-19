@@ -1,0 +1,131 @@
+body, html{
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url(../images/bg_2.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-color:#1f1e23;
+}
+.page_wrapper{
+	position:relative;
+	width:100%;
+	max-width:360px;
+	margin:0 auto;
+}
+.header, .logo{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.logo{
+	margin:10px 0
+}
+.form_wrapper{
+	display:inline-block;
+	width:100%;
+	height:570px;
+	max-width:570px;
+	margin:0 50% 0;
+	background:url(../images/form_circle.png);
+	background-position:top center;
+	background-size:cover;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.form_wrapper.tnks{
+	background:url(../images/tnk_circle.png);
+	background-position:top center;
+	background-size:cover;
+	width:480px;
+	height:480px;
+}
+.form{
+	display:inline-block;
+	width:95%;
+	max-width:540px;
+	margin:200px 50% 0;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.form_list{
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+	color:#FFF
+}
+.form_field{
+	float:left;
+	width:100%;
+	margin-bottom:15px;
+}
+.form_field label{
+	float:left;
+	width:100%;
+	position:relative;
+	font-size:14px;
+}
+.form_field label:before,
+.form_field label:after{
+	float:left;
+	content:'';
+	position:absolute;
+	width:calc(50% - 50px);
+	height:1px;
+	background:#FFF;
+	top:50%
+}
+.form_field label:before{
+	left:0;
+}
+.form_field label:after{
+	right:0;
+}
+.form_field input{
+	float:left;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	color:#70746e;
+	text-align:center;
+	border:none;
+	border-radius:5px;
+	font-family:"Times New Roman", Times, serif
+}
+.form_field.half_field{
+	width:calc(50% - 7px);
+	margin-right:14px;
+}
+.form_field.half_field.last{
+	margin-right:0;
+}
+.button{
+	display:inline-block;
+	padding:15px 80px;
+	font-size:28px;
+	color:#FFF;
+	background:#7d2c89;
+	border:1px solid #561360;
+	border-radius:5px;
+	cursor:pointer
+}
+.footer{
+	position:relative;
+	float:left;
+	width:100%;
+	margin-top:-60px;
+	z-index:99
+}

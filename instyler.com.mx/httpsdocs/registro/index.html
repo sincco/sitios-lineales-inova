@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>InStyler | Siempre Lista</title>
+
+<link href="assets/css/framework.css" rel="stylesheet"  />
+<link href="assets/css/main.css" rel="stylesheet"  />
+
+<!-- Google Analitycs -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17539527-13', 'instyler.com.mx');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analitycs -->
+
+<script src="http://d2g9qbzl5h49rh.cloudfront.net/js/vendor/jquery-1.8.0.min.js?v=3.2.6370" type="text/javascript"></script>
+
+<script src="http://d2g9qbzl5h49rh.cloudfront.net/js/vendor/maskedinput.min.js?v=3.2.6370" type="text/javascript"></script>
+<script src="http://d2g9qbzl5h49rh.cloudfront.net/static/prototype.forms.js" type="text/javascript"></script>
+<script src="http://d2g9qbzl5h49rh.cloudfront.net/static/jotform.forms.js?3.2.6370" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.init(function(){
+      JotForm.setInputTextMasking( 'input_4', '##########' );
+
+      JotForm.alterTexts({"alphabetic":"Este Campo solo puede contenter letras","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Dirección de correo no válida","incompleteFields":"Hay campos incompletos.","lessThan":"Your score should be less than","numeric":"Este campo solo acepta números","pleaseWait":"Espere...","required":"Este campo es requerido.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
+   });
+</script>
+
+<script>
+	if(window.innerWidth <= 1100) {
+		window.location.replace('http://instyler.com.mx/registro/tablet/');
+	}
+</script>
+
+</head>
+<?php $ip = $_SERVER['REMOTE_ADDR']; ?>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PV6CDB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PV6CDB');</script>
+<!-- End Google Tag Manager -->
+
+<div class="px1000">
+    <section id="section_1" class="ingrid-12">
+            <div id="form_wrapper">
+                <img src="assets/images/circle.png" id="form_circle" />
+                
+                <div id="form">
+                	<form class="jotform-form" action="http://instyler.com.mx/registro/gracias.php" method="post" name="form_50835786594875" id="50835786594875" accept-charset="utf-8">
+                      <div class="form-all">
+                        <ul class="form-section page-section">
+                          <li class="form-line jf-required" data-type="control_textbox" id="id_1">
+                            <label class="form-label form-label-left form-label-auto" id="label_1" for="input_1">
+                              Nombre
+                              <span class="form-required">
+                                *
+                              </span>
+                            </label>
+                            <div id="cid_1" class="form-input jf-required">
+                              <input type="text" class=" form-textbox validate[required, Alphabetic]" data-type="input-textbox" id="input_1" name="q1_nombre" size="25" value="" placeholder="Andrea Pérez Juárez" required="required"  />
+                            </div>
+                          </li>
+                          <li class="form-line jf-required" data-type="control_textbox" id="id_3">
+                            <label class="form-label form-label-left form-label-auto" id="label_3" for="input_3">
+                              Email
+                              <span class="form-required">
+                                *
+                              </span>
+                            </label>
+                            <div id="cid_3" class="form-input jf-required">
+                              <input type="text" class=" form-textbox validate[required, Email]" data-type="input-textbox" id="input_3" name="q3_email" size="25" value="" placeholder="ejemplo@ejemplo.com" required="required" />
+                            </div>
+                          </li>
+                          <li class="form-line jf-required" data-type="control_textbox" id="id_4">
+                            <label class="form-label form-label-left form-label-auto" id="label_4" for="input_4">
+                              Celular (10 dígitos)
+                              <span class="form-required">
+                                *
+                              </span>
+                            </label>
+                            <div id="cid_4" class="form-input jf-required">
+          <input type="text" class=" form-textbox validate[required, Fill Mask]" data-type="input-textbox" id="input_4" name="q4_celular10" size="10" masked="true" value="" maxlength="10" required="required"  />
+        </div>
+                          </li>
+                          <li class="form-line jf-required" data-type="control_textbox" id="id_8">
+                            <label class="form-label form-label-left form-label-auto" id="label_8" for="input_8">
+                              Ciudad
+                              <span class="form-required">
+                                *
+                              </span>
+                            </label>
+                            <div id="cid_8" class="form-input jf-required">
+                              <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_8" name="q8_ciudad" size="25" value="" placeholder="DF, Guadalajara, Monterrey, etc" required="required"  />
+                            </div>
+                            
+                          </li>
+                          <li class="form-line" data-type="control_button" id="id_2">
+                            <div id="cid_2" class="form-input-wide">
+                              <div style="text-align:center" class="form-buttons-wrapper">
+                                <button id="input_2" type="submit" class="form-submit-button form-submit-button-img">
+                                  <img src="http://instyler.com.mx/registro/assets/images/main_btn.png" alt="Acceder a la promoción" />
+                                </button>
+                              </div>
+                            </div>
+                          </li>
+                          <li style="display:none">
+                            Should be Empty:
+                            <input type="text" name="website" value="" />
+                          </li>
+                        </ul>
+                      </div>
+                      <input type="hidden" id="simple_spc" name="simple_spc" value="50835786594875" />
+                      <script type="text/javascript">
+                      document.getElementById("si" + "mple" + "_spc").value = "50835786594875-50835786594875";
+                      </script>
+                    </form>
+                </div>
+            </div>
+            
+            <a href="#form_wrapper" id="buybtn" class="smooth_scroll"><img src="assets/images/buy_btn.png" alt="Consigue tu instyler ahora"  /></a>
+
+            <div id="description">
+                <ul>
+                    <li>Incorpora el único sistema Straigh to Look que te garantiza peinados duraderos.</li>
+                    <li>Instyler cuenta con un barril rotatorio que pule el cabello sin maltratarlo.</li>
+                    <li>Crea lacios firmes, ondula, riza y da volumen.</li>
+                    <li>Elimina el frizz y luce un cabello suave y brillante. </li>
+                    <li>Peinados que duran todo el día.</li>
+                    <li>Incluye plancha flotante y cerdas que estilizan tu cabello</li>
+                    <li>Da cuerpo y firmeza dejándolo radiante</li>
+                    <li>Prueba toda clase de peinados como a ti te gustan </li>
+                    <li>Obtén los mejores resultados en muy poco tiempo </li>
+                </ul>
+            </div>
+            
+            <div id="video">
+                <img src="assets/images/video_over.png" id="video_over" />
+                <iframe src="http://www.youtube.com/embed/fjhuKp_yewU?rel=0&vq=hd720&modestbranding=1&showinfo=0&autohide=1&controls=0" width="640" height="385" frameborder="0"></iframe>
+            </div>
+            
+            <img src="assets/images/facebook_icon.png" alt="Facebook" id="facebook_icon" />
+			<img src="assets/images/youtube_icon.png" alt="Youtube" id="youtube_icon" />
+			<!-- <img src="assets/images/gratis.png" id="gratis" /> -->
+    </section>
+</div>
+
+<div id="GotoTop"><img src="assets/images/gototop.png" alt="Go to top" /></div>
+
+<script>
+	jQuery(window).scroll(function(){
+		if(jQuery(this).scrollTop()>=1000){
+			jQuery('#GotoTop').fadeIn()
+		}else{
+			jQuery('#GotoTop').fadeOut()
+		}
+	});
+		
+	jQuery('#GotoTop').click(function(event){
+		event.preventDefault();
+		jQuery('body,html').animate({scrollTop:0},500)
+	});
+</script>
+
+</body>
+
+</html>

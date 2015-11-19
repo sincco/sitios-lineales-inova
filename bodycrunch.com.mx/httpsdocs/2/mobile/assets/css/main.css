@@ -1,0 +1,204 @@
+/*** GENERAL AND COLORS ***/
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body{
+	background:#000;
+	font-family: 'Oswald', sans-serif;
+}
+.section_black{
+	background:#161616;
+	color:#FFF
+}
+.section_white{
+	background:#FFF;
+	color:#161616
+}
+.text_color_1{
+	color:#c6e113
+}
+.text_color_2{
+	color:#e96a1e
+}
+.text_light{
+	font-weight:300
+}
+.section_text p{
+	font-size:16px;
+	line-height:22px;
+	margin:0;
+	font-weight:300
+}
+.section_title{
+	font-size:30px;
+}
+.page_subtitle{
+	font-size:23px;
+	line-height:25px;
+}
+.bg_color_1{
+	background:#cedd03;
+	color:#161616
+}
+input[type="image"]{
+	max-width:100%
+}
+/*** HEADER ***/
+#header_keeper{
+	height:85px
+}
+header.ingrid-12{
+	background:#000;
+	padding:10px 0;
+	position: fixed;
+	z-index:999;
+}
+#main_logo img{
+	margin-top:10px;
+}
+
+/*** BENEFICIOS ***/
+#beneficios{
+	background:url(../images/black_bg.jpg) no-repeat;
+	background-size:cover
+}
+#beneficios_title{
+	margin-top:10px;
+}
+#beneficios_subtitle{
+	font-size:20px;
+	line-height:23px;
+}
+#mujer_1{
+	position:absolute;
+	top:-50px;
+	right:5%
+}
+#beneficios_text{
+	margin-top:350px;
+	padding:30px 0
+}
+
+/*** CARACTERÍSTICAS ***/
+#caracteristicas{
+	background:url(../images/caracteristicas_bg.jpg) no-repeat;
+	background-size:cover;
+}
+#caracteristicas_main{
+	margin-top:5px;
+}
+#caracteriticas_text{
+	padding:30px 0 20px 
+}
+
+/*** CRISTINA ***/
+#cristina{
+	background:url(../images/black_bg_2.jpg) no-repeat;
+	background-size:cover;
+}
+#cristina_1{
+	margin-top:10px;
+}
+#second_subtitle{
+	margin:30px 0;
+	font-size:21px;
+	line-height:25px
+}
+#cristina_text{
+	margin-bottom:10px;
+}
+
+/*** GARANTIA ***/
+#garantia{
+	background:url(../images/garantia_bg.jpg) no-repeat;
+}
+#garantia_seal{
+	margin:30px 0;
+	width:285px
+}
+#garantia_text p{
+	font-size:16px;
+	line-height:20px;
+	margin-bottom:20px;
+}
+
+/*** INSTAGRAM ***/
+#instagram{
+	padding:10px 0;
+	background:url(../images/white_gym_bg.jpg) no-repeat;
+	background-size:cover;
+}
+#instagram_images_grid {
+	list-style:none;
+	text-align:center;
+}
+#instagram_images_grid li{
+	float:left;
+	width:calc(33.33% - 10px);
+	margin:10px 5px;
+}
+
+/*** OTHER PRODUCTS ***/
+#other_products{
+	background:url(../images/black_bg.jpg);
+	background-repeat:repeat-y;
+	background-position:top center;
+	z-index:99
+}
+.ingrid-12.single_product{
+	padding:20px 0;
+}
+.product_name{
+	font-size:23px;
+	margin:15px 0
+}
+.msi_t{
+	font-size:20px;
+}
+.msi_p{
+	font-size:45px;
+	line-height:50px;
+	margin:7px 0;
+}
+.ouspd_price{
+	font-size:26px;
+	line-height:35px;
+	font-weight:bold;
+}
+.envio_gratis{
+	font-size:26px;
+	line-height:35px;
+	margin-top:5px;
+}
+.product_buy_btn{
+	margin-top:10px;
+}
+
+/*** FOOTER ***/
+footer.ingrid-12{
+	padding-bottom:20px;
+	z-index:99
+}
+#logo_inova_footer{
+	padding:10px 0;
+}
+.footer_menu{
+	list-style:none;
+	text-align:center;
+}
+.footer_menu li {
+	display:inline-block;
+}
+.footer_menu li a{
+	float:left;
+	color:#161616;
+	padding:5px 0;
+	margin:0 10px;
+}
+
+/*** FLOAT BUY NOW ***/
+#float_buy_now{
+	position:fixed;
+	z-index:1;
+	bottom:0;
+	text-align:center;
+}
