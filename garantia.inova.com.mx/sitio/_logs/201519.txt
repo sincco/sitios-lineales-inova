@@ -1,0 +1,255 @@
+0505112712::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430843131786
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505113111::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430843370469
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505113120::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430843381308
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505113716::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430843381309
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505113801::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430843744033
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505114030::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430843932121
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505114137::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430843998730
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505114221::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430843998731
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505114258::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430844079601
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0505114413::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430844079602
+SESSION: 
+-->id: rj8c3g0cj69k558g1h02ed5si0
+-->data: 
+IP: 172.20.18.112 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0506180252::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1430953274038
+SESSION: 
+-->id: d1fio68ppb449obnpjpn7gkdm6
+-->data: 
+IP: 172.20.18.47 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0507183124::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1431041375962
+SESSION: 
+-->id: 1nh34jnaqgcjtoi2anchn6pa67
+-->data: 
+IP: 172.20.18.123 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0507183502::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1431041375963
+SESSION: 
+-->id: 1nh34jnaqgcjtoi2anchn6pa67
+-->data: 
+IP: 172.20.18.123 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+050895747::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1431096968777
+SESSION: 
+-->id: 2ju8c19l565q7pbbgsp209pft5
+-->data: 
+IP: 172.20.18.46 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0508104013::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1431099514250
+SESSION: 
+-->id: d1fio68ppb449obnpjpn7gkdm6
+-->data: 
+IP: 172.20.18.47 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0508114935::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1431103678081
+SESSION: 
+-->id: 2ju8c19l565q7pbbgsp209pft5
+-->data: 
+IP: 172.20.18.46 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0508115707::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1431104224037
+SESSION: 
+-->id: e4v7bf1ejpiod2ide4gs93l0s7
+-->data: 
+IP: 172.20.13.31 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------

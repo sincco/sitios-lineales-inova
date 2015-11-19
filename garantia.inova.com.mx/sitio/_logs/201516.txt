@@ -1,0 +1,15 @@
+0414170052::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/?_=1429048758473
+SESSION: 
+-->id: pii6dcud1ios76chnqfqq2jke1
+-->data: 
+IP: 172.20.18.46 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------

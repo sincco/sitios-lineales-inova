@@ -1,0 +1,47 @@
+0423195632::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN fol.Initial AND fol.Final' at line 4(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::62
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/folios.php(21): BaseDatos->query('SELECT pro.UPC,...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/folios.php(27): foliosModelo->descripcion(NULL)
+#2 [internal function]: foliosControlador->descripcion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/folios/descripcion/
+SESSION: 
+-->id: bnbnto3m89i17mbm3k20hgn380
+-->data: 
+IP: 172.16.14.6 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0423224829::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
+					Date = CURDATE(),Time = CURTIME()' at line 2(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::131
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/warranties.php(15): BaseDatos->insertRAW('INSERT INTO war...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/garantias.php(8): warrantiesModelo->inserta(Array)
+#2 [internal function]: garantiasControlador->activacion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/garantias/activacion
+SESSION: 
+-->id: 2vhfr9ea64f9s765mgjj3qhlh2
+-->data: 
+IP: 172.16.14.6 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
+0426221829::[SQLSTATE] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
+					Date = CURDATE(),Time = CURTIME()' at line 2(1064)
+--> /home/www/domains/garantia.inova.com.mx/sitio/_frame/BaseDatos.php::131
+-->--> #0 /home/www/domains/garantia.inova.com.mx/sitio/_app/_modelos/warranties.php(15): BaseDatos->insertRAW('INSERT INTO war...')
+#1 /home/www/domains/garantia.inova.com.mx/sitio/_app/_controladores/garantias.php(8): warrantiesModelo->inserta(Array)
+#2 [internal function]: garantiasControlador->activacion()
+#3 /home/www/domains/garantia.inova.com.mx/sitio/_frame/Arranque.php(30): call_user_func(Array)
+#4 /home/www/domains/garantia.inova.com.mx/sitio/index.php(11): Arranque::ejecuta(Object(Peticion))
+#5 {main}
+
+URL: http://garantia.inova.com.mx:80/garantias/activacion
+SESSION: 
+-->id: gc6h2b18uft67vo8vlgakdepp6
+-->data: 
+IP: 172.16.14.6 - PHP 5.3.10-1ubuntu3.8 - Linux(/etc PHP_BINARY)
+--------------------------------------------
